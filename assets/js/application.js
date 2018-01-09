@@ -2,7 +2,9 @@
 	Andrei Soldatenkov
 	WebClient testing:
 */
-var exampleSocket = new WebSocket("wss://192.168.31.118:5880");
+
+
+var exampleSocket = new WebSocket("wss://Andrei:5880");
 //var exampleSocket = new WebSocket("ws://192.10.1.37:5880");
 console.log("server started");
 exampleSocket.onmessage = function (event) {
